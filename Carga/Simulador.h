@@ -12,10 +12,11 @@ namespace UTEC{
         std::vector<Carga*> cargas;
     public:
         Simulador(int, int);
-        void generarCargas();
+        void agregarCargas(int cantidad);
         bool existe(Carga*);
         void mostrarPotenciales();
+        std::vector<Carga*>* get_cargas();
     };
 }
 
-#endif //CARGA_SIMULADOR_H
+#endif

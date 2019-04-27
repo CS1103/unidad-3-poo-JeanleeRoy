@@ -7,6 +7,7 @@ CMakeFiles/Carga.dir/Carga.cpp.o: ../Carga.h
 CMakeFiles/Carga.dir/Simulacion-test.cpp.o: ../Carga.h
 CMakeFiles/Carga.dir/Simulacion-test.cpp.o: ../Simulacion-test.cpp
 CMakeFiles/Carga.dir/Simulacion-test.cpp.o: ../Simulador.h
+CMakeFiles/Carga.dir/Simulacion-test.cpp.o: ../catch.hpp
 
 CMakeFiles/Carga.dir/Simulador.cpp.o: ../Carga.h
 CMakeFiles/Carga.dir/Simulador.cpp.o: ../Simulador.cpp
@@ -14,5 +15,6 @@ CMakeFiles/Carga.dir/Simulador.cpp.o: ../Simulador.h
 
 CMakeFiles/Carga.dir/main.cpp.o: ../Carga.h
 CMakeFiles/Carga.dir/main.cpp.o: ../Simulador.h
+CMakeFiles/Carga.dir/main.cpp.o: ../catch.hpp
 CMakeFiles/Carga.dir/main.cpp.o: ../main.cpp
 

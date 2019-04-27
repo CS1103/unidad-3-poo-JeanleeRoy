@@ -29,10 +29,9 @@ void UTEC::Simulador::mostrarPotenciales() {
     }
 }
 
-void UTEC::Simulador::generarCargas() {
+void UTEC::Simulador::agregarCargas(int cantidad) {
     srand(time(NULL));
-    int cantidadCargas = 10;
-    for (int i = 0; i < cantidadCargas; ++i){
+    for (int i = 0; i < cantidad; ++i){
         int x = (rand()%(n+1));
         int y = (rand()%(m+1));
         double q = (rand()%21)-10;
@@ -43,4 +42,8 @@ void UTEC::Simulador::generarCargas() {
         } else
             cargas.push_back(temp);
     }
+}
+
+std::vector<UTEC::Carga *> *UTEC::Simulador::get_cargas() {
+    return &cargas;
 }

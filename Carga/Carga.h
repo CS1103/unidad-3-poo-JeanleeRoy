@@ -1,7 +1,3 @@
-//
-// Created by jeanlee on 24/04/19.
-//
-
 #ifndef CARGA_CARGA_H
 #define CARGA_CARGA_H
 
@@ -24,4 +20,4 @@ namespace UTEC {
 
 }
 
-#endif //CARGA_CARGA_H
+#endif
